@@ -1,0 +1,93 @@
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bar{
+background-color: black;
+color: white;
+text-align: right;	
+padding-top: 5px;
+padding-right: 10px;
+height: 40px;
+}
+#main{
+	width: 100%;
+	margin: auto;
+	padding-top: 10%;
+}
+#logo{
+	float: left;
+	width: 500px;
+	height: 500px;
+}
+#content{
+	float: left;
+	margin: auto;
+	width: 550px;
+	height: 500px;
+	opacity: 0.8;
+	background-color: white;
+	color: black;
+	padding-top: 40px; 
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+h1{
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-size: 40pt;
+}
+p{
+	font-family: "Comic Sans MS"
+	font-size: 14pt;
+	color: black;
+}
+button{
+	border-color: 15px;
+	opacity: 0.8;
+	background-color: #6AA2FF;
+}
